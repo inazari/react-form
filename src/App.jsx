@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss'
 import ReactHookForm from "./components/reactHookForm";
-import TestHook from "./components/testHook";
 function App() {
   return (
     <div className="App">
@@ -10,7 +9,6 @@ function App() {
       </header>
       <main>
         <ReactHookForm />
-        <TestHook />
       </main>
     </div>
   );
